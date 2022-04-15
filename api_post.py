@@ -6,6 +6,7 @@ if __name__ == '__main__':
    headers = {'Content-Type': 'application/json'}
    url = ''
    r = requests.post(url, data=json.dumps(my_data), headers=headers)
+   
    print(r.status_code)
 
 
